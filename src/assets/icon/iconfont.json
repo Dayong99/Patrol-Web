@@ -1,0 +1,43 @@
+{
+    "id": "2224703",
+    "name": "inspect",
+    "font_family": "iconfont",
+    "css_prefix_text": "icon-",
+    "description": "",
+    "glyphs": [{
+            "icon_id": "7404556",
+            "name": "巡察-线性",
+            "font_class": "xuncha-xianxing",
+            "unicode": "e78e",
+            "unicode_decimal": 59278
+        },
+        {
+            "icon_id": "970761",
+            "name": "报告",
+            "font_class": "baogao-copy",
+            "unicode": "e642",
+            "unicode_decimal": 58946
+        },
+        {
+            "icon_id": "3819712",
+            "name": "责任心",
+            "font_class": "zerenxin",
+            "unicode": "e7b4",
+            "unicode_decimal": 59316
+        },
+        {
+            "icon_id": "5474838",
+            "name": "报告",
+            "font_class": "baogao",
+            "unicode": "e63c",
+            "unicode_decimal": 58940
+        },
+        {
+            "icon_id": "11399566",
+            "name": "导入",
+            "font_class": "daoru",
+            "unicode": "e637",
+            "unicode_decimal": 58935
+        }
+    ]
+}

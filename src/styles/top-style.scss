@@ -1,0 +1,273 @@
+.top-container {
+  width: 100%;
+  margin: 10px 0;
+  padding-bottom: 5px;
+  background: linear-gradient(180deg, #ffffff 0%, #cdeaff 100%);
+  display: flex;
+  align-items: center;
+
+  // 选择框
+  .top_select {
+    flex: 1;
+    margin-left: 5px;
+    display: flex;
+
+    .el-select {
+      max-width: 180px;
+      flex: 1;
+      margin-right: 10px;
+      display: flex;
+      align-items: center;
+
+      .el-input__inner {
+        height: 30px;
+        border: 0;
+        border-bottom: 1px solid #73c8ff;
+        background-color: transparent;
+      }
+      input::-webkit-input-placeholder {
+        color: #93c9ff;
+      }
+      input::-moz-input-placeholder {
+        color: #93c9ff;
+      }
+      input::-ms-input-placeholder {
+        color: #93c9ff;
+      }
+      .select-icon {
+        position: absolute;
+        top: 50%;
+        left: 3px;
+        transform: translateY(-50%);
+      }
+      .el-input .el-select__caret {
+        color: #0086ff;
+      }
+      .el-input__icon {
+        height: 30px;
+        line-height: 30px;
+      }
+    }
+
+    .el-input {
+      max-width: 180px;
+      margin-right: 5px;
+    }
+  }
+
+  // 输入框样式
+  .el-input__inner {
+    height: 30px;
+    border: 0;
+    border-bottom: 1px solid #73c8ff;
+    background-color: transparent;
+  }
+  input::-webkit-input-placeholder {
+    color: #93c9ff;
+  }
+  input::-moz-input-placeholder {
+    color: #93c9ff;
+  }
+  input::-ms-input-placeholder {
+    color: #93c9ff;
+  }
+
+  .el-button {
+    width: 80px;
+    height: 32px;
+    padding: 0 11px 0 7px;
+    font-size: 16px;
+    margin-right: 5px;
+  }
+
+  // 重置、导入、创建 按钮
+  .top_btn {
+    display: flex;
+    align-items: center;
+
+    //导出按钮
+    .search {
+      color: #008fff;
+      border-color: #008fff;
+      background-color: transparent;
+      .img {
+        width: 24px;
+        height: 24px;
+        background-image: url("../assets/main_images/search.png");
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      span {
+        display: flex;
+        align-items: center;
+      }
+    }
+    //导出按钮点亮
+    .search:hover {
+      color: #ffffff;
+      background: #008fff;
+      .img {
+        width: 24px;
+        height: 24px;
+        background-image: url("../assets/main_images/search1.png");
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+    }
+
+    //导出按钮
+    .export {
+      // transform: translateY(-5px);
+      color: #008fff;
+      border-color: #008fff;
+      background-color: transparent;
+      .img {
+        // content: url("../assets/main_images/search.png");
+        width: 24px;
+        height: 24px;
+        background-image: url("../assets/icon_img/export.png");
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      span {
+        display: flex;
+        align-items: center;
+      }
+    }
+    //导出按钮点亮
+    .export:hover {
+      color: #ffffff;
+      background: #008fff;
+      .img {
+        // content: url("../assets/main_images/search1.png");
+        width: 24px;
+        height: 24px;
+        background-image: url("../assets/icon_img/export1.png");
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+    }
+
+    //重置按钮
+    .reset {
+      // transform: translateY(-5px);
+      color: #ff8000;
+      border-color: #ff8000;
+      background-color: transparent;
+      .img {
+        // content: url("../assets/main_images/reset.png");
+        width: 24px;
+        height: 24px;
+        background-image: url("../assets/main_images/reset.png");
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      span {
+        display: flex;
+        align-items: center;
+      }
+    }
+    //重置按钮点亮
+    .reset:hover {
+      color: #ffffff;
+      background: #ff8000;
+      .img {
+        // content: url("../assets/main_images/reset1.png");
+        width: 24px;
+        height: 24px;
+        background-image: url("../assets/main_images/reset1.png");
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+    }
+    //导入按钮
+    .import {
+      color: #00bb29;
+      border-color: #00bb29;
+      background-color: transparent;
+      .img {
+        // content: url("../assets/main_images/import.png");
+        width: 24px;
+        height: 24px;
+        background-image: url("../assets/main_images/import.png");
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      span {
+        display: flex;
+        align-items: center;
+      }
+    }
+    //导入按钮点亮
+    .import:hover {
+      color: #ffffff;
+      border-color: #ffffff;
+      background: #00bb29;
+      .img {
+        // content: url("../assets/main_images/import1.png");
+        width: 24px;
+        height: 24px;
+        background-image: url("../assets/main_images/import1.png");
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+    }
+    //创建按钮
+    .create {
+      color: #ffffff;
+      background: #008fff;
+      .img {
+        width: 20px;
+        height: 20px;
+        // content: url("../assets/main_images/add2.png");
+        width: 24px;
+        height: 24px;
+        background-image: url("../assets/main_images/add2.png");
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      span {
+        display: flex;
+        align-items: center;
+      }
+    }
+    .create:hover {
+      color: #008fff;
+      border-color: #008fff;
+      background-color: transparent;
+      .img {
+        width: 20px;
+        height: 20px;
+        // content: url("../assets/main_images/add.png");
+        width: 24px;
+        height: 24px;
+        background-image: url("../assets/main_images/add.png");
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+    }
+    .delbtn {
+      color: #ffffff;
+      background: #008fff;
+    }
+    .delbtn:hover {
+      color: #008fff;
+      border-color: #008fff;
+      background-color: transparent;
+    }
+  }
+}
+
+
+// 下拉
+.file_dropdown {
+  display: flex;
+}
+
+.el-dropdown-menu--mini .el-dropdown-menu__item {
+  height: 24px;
+  line-height: 20px;
+  padding: 0 3px;
+}
